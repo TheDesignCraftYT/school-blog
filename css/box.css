@@ -1,0 +1,35 @@
+div.box {
+    background-color: #151718;
+    border: 0 solid;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0.5rem 0.5rem #151718;
+    margin-top: 10px;
+    width: 100%;
+    height: fit-content;
+    font-family: Arial, sans-serif;
+    font-size: 1.5rem;
+    color: #dddddd;
+    padding: 10px;
+}
+
+div.programm-icon {
+    display: inline-block;
+    float: left;
+    margin: 2px;
+    width: 15px;
+    height: 15px;
+    border: 0 solid;
+    border-radius: 0.5rem;
+}
+
+div.programm-icon#red {
+    background-color: #ff5f56;
+}
+
+div.programm-icon#yellow {
+    background-color: #ffbd2e;
+}
+
+div.programm-icon#green {
+    background-color: #27c93f;
+}

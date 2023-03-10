@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div#menu {
+    position: -webkit-sticky;
+    position: sticky;
+    background-color: #dddddd;
+    fill: #dddddd;
+    height: 46px;
+    overflow: hidden;
+}
+
+div#menu div {
+    display: inline-block;
+    background-color: #dddddd;
+}
+
+div#menu div ul.menu-items {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+div#menu div#left {
+    float: left;
+}
+
+div#menu div#left ul.menu-items li.menu-item {
+    display: inline-block;
+    float: left;
+}
+
+div#menu div#left ul.menu-items li.menu-item:not(:last-child) {
+    border-right: 1px solid #bbb;
+}
+
+div#menu div#right {
+    float: right;
+}
+
+div#menu div#right ul.menu-items li.menu-item {
+    display: inline-block;
+    float: right;
+}
+
+div#menu div#right ul.menu-items li.menu-item:not(:first-child) {
+    border-left: 1px solid #bbb;
+}
+
+div#menu div ul.menu-items li.menu-item a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}
+
+div#menu div ul.menu-items li.menu-item a:hover {
+    background-color: #c3c3c3;
+}
+
+div#menu div ul.menu-items li.active a {
+    background-color: #04AA6D;
+}
+
+div#menu div ul.menu-items li.active:hover a {
+    background-color: #04724a;
+}
