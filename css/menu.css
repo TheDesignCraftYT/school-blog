@@ -4,15 +4,15 @@ body {
 }
 
 div#menu {
-    background-color: #dddddd;
-    fill: #dddddd;
+    background-color: rgba(221, 221, 221, 0.5);
+    fill: rgba(221, 221, 221, 0.5);
     height: 22px;
     overflow: hidden;
 }
 
 div#menu div {
     display: inline-block;
-    background-color: #dddddd;
+    background-color: rgba(0, 0, 0, 0);
 }
 
 div#menu div ul.menu-items {
@@ -24,15 +24,12 @@ div#menu div ul.menu-items {
 
 div#menu div#left {
     float: left;
+    margin-left: 20px;
 }
 
 div#menu div#left ul.menu-items li.menu-item {
     display: inline-block;
     float: left;
-}
-
-div#menu div#left ul.menu-items li.menu-item:not(:last-child) {
-    border-right: 1px solid #bbb;
 }
 
 div#menu div#right {
@@ -44,27 +41,41 @@ div#menu div#right ul.menu-items li.menu-item {
     float: right;
 }
 
-div#menu div#right ul.menu-items li.menu-item:not(:first-child) {
-    border-left: 1px solid #bbb;
-}
-
 div#menu div ul.menu-items li.menu-item a {
     display: block;
     color: white;
     text-align: center;
-    padding: 2px 16px;
     text-decoration: none;
     font-family: Arial, sans-serif;
+    border: 0 solid;
+    border-radius: 0.3rem;
+}
+
+div#menu div ul.menu-items li.menu-item a:not(#alogo) {
+    padding: 2px 16px;
+}
+
+div#menu div ul.menu-items li.menu-item a#alogo {
+    height: 22px;
+    padding-inline: 5px;
+    padding-top: 1px;
 }
 
 div#menu div ul.menu-items li.menu-item a:hover {
-    background-color: #c3c3c3;
+    background-color: rgba(150, 150, 150, 0.5);
 }
 
-div#menu div ul.menu-items li.active a {
+div#menu div ul.menu-items li:active a {
     background-color: #04AA6D;
 }
 
-div#menu div ul.menu-items li.active:hover a {
+div#menu div ul.menu-items li:active:hover a {
     background-color: #04724a;
+}
+
+img#logo {
+    width: 19px;
+    height: 19px;
+    margin: 0;
+    padding: 0;
 }
