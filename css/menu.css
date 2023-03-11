@@ -4,11 +4,9 @@ body {
 }
 
 div#menu {
-    position: -webkit-sticky;
-    position: sticky;
     background-color: #dddddd;
     fill: #dddddd;
-    height: 46px;
+    height: 22px;
     overflow: hidden;
 }
 
@@ -54,7 +52,7 @@ div#menu div ul.menu-items li.menu-item a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 2px 16px;
     text-decoration: none;
     font-family: Arial, sans-serif;
 }
