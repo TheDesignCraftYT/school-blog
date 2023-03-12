@@ -50,11 +50,11 @@ div#menu div ul.menu-items li.menu-item a {
     border-radius: 0.3rem;
 }
 
-div#menu div ul.menu-items li.menu-item a:not(#alogo) {
+div#menu div ul.menu-items li.menu-item a:not(#a-logo) {
     padding: 2px 16px;
 }
 
-div#menu div ul.menu-items li.menu-item a#alogo {
+div#menu div ul.menu-items li.menu-item a#a-logo {
     height: 22px;
     padding-inline: 5px;
     padding-top: 1px;
