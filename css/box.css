@@ -16,8 +16,16 @@ div.box:first-child {
     top: 22px;
 }
 
+.box-header {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 29px;
+}
+
 div.programm-icon {
     display: inline-block;
+    position: relative;
     float: left;
     margin: 2px;
     width: 15px;
@@ -26,21 +34,61 @@ div.programm-icon {
     border-radius: 0.5rem;
 }
 
-div.programm-icon#red {
+div.programm-icon.red {
     background-color: #ff5f56;
 }
 
-div.programm-icon#yellow {
+div.programm-icon.yellow {
     background-color: #ffbd2e;
 }
 
-div.programm-icon#green {
+div.programm-icon.green {
     background-color: #27c93f;
+    rotate: -45deg;
 }
 
-iframe.box-header {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 27px;
+div.programm-icon.green:not(.static) {
+    cursor: pointer;
+    position: absolute;
+    margin: 10px 10px 10px -252px;
+}
+
+div.programm-icon.green span.triangle {
+    margin-inline: 2px;
+    transition: border-bottom-color 0.2s;
+}
+
+div.programm-icon.green.small span.triangle:first-child {
+    margin-top: 2px;
+    margin-bottom: 1px;
+}
+
+div.programm-icon.green.small span.triangle:last-child {
+    rotate: 180deg;
+    margin-top: 0;
+}
+
+div.programm-icon.green.big span.triangle:first-child {
+    margin-top: 2px;
+    margin-bottom: 0;
+    rotate: 180deg;
+}
+
+div.programm-icon.green.big span.triangle:last-child {
+    margin-top: 0;
+}
+
+div.programm-icon:not(:hover).green span.triangle {
+    border-bottom: transparent;
+}
+
+.triangle {
+    display: inline-block;
+    float: left;
+    margin: 2px;
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 5px solid #006401;
 }

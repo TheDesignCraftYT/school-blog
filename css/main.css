@@ -30,6 +30,17 @@ iframe#menu {
     min-height: 10px;
 }
 
+.full-width {
+    margin-top: 10px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    min-width: 950px;
+    height: fit-content;
+    min-height: 10px;
+}
+
 iframe {
     border: none;
 }

@@ -33,6 +33,7 @@ div#menu div#left ul.menu-items li.menu-item {
 
 div#menu div#right {
     float: right;
+    margin-right: 10px;
 }
 
 div#menu div#right ul.menu-items li.menu-item {
