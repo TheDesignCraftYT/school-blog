@@ -4,8 +4,7 @@ body {
 }
 
 div#menu {
-    background-color: rgba(221, 221, 221, 0.5);
-    fill: rgba(221, 221, 221, 0.5);
+    background-color: rgba(0, 0, 0, 0);
     height: 22px;
     overflow: hidden;
 }
