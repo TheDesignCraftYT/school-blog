@@ -7,6 +7,25 @@ body {
     background-size: cover;
 }
 
+iframe#screen-size-error {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+}
+
+@media (max-width: 1000px) {
+    body *:not(#screen-size-error) {
+        display: none;
+    }
+    iframe#screen-size-error {
+        display: block;
+    }
+}
+
 iframe#menu {
     position: sticky;
     top: 0;
