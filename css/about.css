@@ -2,3 +2,32 @@
     padding-inline: 25px;
     font-size: 20px;
 }
+
+div#content img {
+    display: inline-block;
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border: 5px #dddddd solid;
+    border-radius: 100%;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+div#content h3 {
+    display: inline-block;
+    position: absolute;
+    left: 230px;
+    top: 55px;
+    font-size: 40px;
+}
+
+div#content h4 {
+    display: inline-block;
+    position: absolute;
+    left: 300px;
+    top: 105px;
+    font-size: 20px;
+    color: rgba(0,0,0,0);
+    -webkit-text-stroke: 1px #dddddd;
+}
