@@ -1,3 +1,7 @@
+body {
+    color: #ced0d4;
+}
+
 p {
     color: #ced0d4;
     font-family: Arial, sans-serif;
@@ -13,4 +17,12 @@ pre {
     color: #ced0d4;
     border: 1px solid #1e1f22;
     border-radius: 0.5rem;
+}
+
+a {
+    color: #159ffc;
+}
+
+a:active {
+    color: #594fbd;
 }

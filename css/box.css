@@ -12,6 +12,7 @@ div.box {
     padding: 10px;
     display: flex;
     flex-direction: column;
+    margin-bottom: 10px;
 }
 
 div.box:first-child {
@@ -26,11 +27,11 @@ div.box:first-child {
 }
 
 .box-title {
-    position: absolute;
+    position: relative;
     display: inline-block;
     float: left;
-    top: 19px;
-    left: 80px;
+    top: -146px;
+    left: 75px;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -41,11 +42,6 @@ div.box:first-child {
     text-align: left;
     vertical-align: middle;
     line-height: 1rem;
-}
-
-div.full-width div.box div.box-header h6.box-title {
-    top: 70px;
-    left: 90px;
 }
 
 div.programm-icon {
