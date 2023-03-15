@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>WebDesign Insights - Einführung in HTML und CSS</title>
+    <link rel="stylesheet" href="../../css/blogs.css">
+</head>
+<body>
+<p>
+    Als Webentwickler ist es unerlässlich, sich mit HTML und CSS auszukennen, denn ohne diese Technologien wäre das
+    Erstellen von Webseiten nicht möglich. In diesem Artikel werde ich einen grundlegenden Überblick über die Struktur
+    von HTML und die Verwendung von CSS geben.
+</p>
+<h3>HTML-Grundlagen</h3>
+<p>
+    HTML ist eine Markup-Sprache, die aus verschiedenen Elementen besteht, die verwendet werden, um den Inhalt einer
+    Webseite zu strukturieren. Jedes Element wird von einem Tag umschlossen, der den Browser darüber informiert, wie der
+    Inhalt dargestellt werden soll.
+</p>
+<p>
+    Die grundlegende Struktur eines HTML-Dokuments sieht folgendermaßen aus:
+</p>
+<pre>
+  <code>
+    &lt;!DOCTYPE html&gt;
+    &lt;html lang="de"&gt;
+    &lt;head&gt;
+        &lt;meta charset="UTF-8"&gt;
+        &lt;title&gt;Titel der Webseite&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;!-- Hier kommt der Inhalt der Webseite --&gt;
+    &lt;/body&gt;
+    &lt;/html&gt;
+  </code>
+</pre>
+<p>
+    Die ersten beiden Zeilen definieren den Dokumenttyp und öffnen das HTML-Dokument. Der `&lt;head&gt;`-Tag enthält
+    Informationen über die Webseite, wie zum Beispiel den Titel der Seite, den Autor, Beschreibungen
+    für Suchmaschienen und andere Metadaten. Der `&lt;body&gt;`-Tag enthält den eigentlichen Inhalt der Webseite.
+</p>
+<p>
+    Innerhalb des
+    body-Tags können verschiedene HTML-Elemente verwendet werden, um den Inhalt der Webseite zu strukturieren. Zum
+    Beispiel können Überschriften mit den
+    &lt;h1&gt; bis
+    &lt;h6&gt;-Tags definiert werden, wobei
+    &lt;h1&gt; die größte Überschrift und
+    &lt;h6&gt; die kleinste ist.
+</p>
+<pre>
+  <code>
+    &lt;h1&gt;Überschrift 1&lt;/h1&gt;
+    &lt;h2&gt;Überschrift 2&lt;/h2&gt;
+    &lt;h3&gt;Überschrift 3&lt;/h3&gt;
+    &lt;h4&gt;Überschrift 4&lt;/h4&gt;
+    &lt;h5&gt;Überschrift 5&lt;/h5&gt;
+    &lt;h6&gt;Überschrift 6&lt;/h6&gt;
+  </code>
+</pre>
+<p>
+    Absätze werden mit dem
+    &lt;p&gt;-Tag definiert:
+</p>
+<pre>
+  <code>
+    &lt;p&gt;Dies ist ein Absatz.&lt;/p&gt;
+  </code>
+</pre>
+<p>
+    Um Text zu formatieren, können verschiedene HTML-Elemente verwendet werden. Zum Beispiel können
+    &lt;strong&gt; und
+    &lt;em&gt; verwendet werden, um Text fett und kursiv darzustellen:
+</p>
+<pre>
+  <code>
+    &lt;p&gt;Dies ist ein &lt;strong&gt;fetter&lt;/strong&gt; Text.&lt;/p&gt;
+    &lt;p&gt;Dies ist ein &lt;em&gt;kursiver&lt;/em&gt; Text.&lt;/p&gt;
+  </code>
+</pre>
+<p>
+    Um eine Liste zu erstellen, können die
+    &lt;ul&gt; und
+    &lt;ol&gt;-Tags verwendet werden. Die
+    &lt;ul&gt;-Tags definieren eine ungeordnete Liste, während die
+    &lt;ol&gt;-Tags eine geordnete Liste definieren. Die einzelnen Listenelemente werden mit dem
+    &lt;li&gt;-Tag definiert:
+</p>
+<pre>
+  <code>
+    &lt;ul&gt;
+        &lt;li&gt;Listenelement 1&lt;/li&gt;
+        &lt;li&gt;Listenelement 2&lt;/li&gt;
+        &lt;li&gt;Listenelement 3&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;ol&gt;
+        &lt;li&gt;Listenelement 1&lt;/li&gt;
+        &lt;li&gt;Listenelement 2&lt;/li&gt;
+        &lt;li&gt;Listenelement 3&lt;/li&gt;
+    &lt;/ol&gt;
+  </code>
+</pre>
+<p>
+    Um Links zu erstellen, können die
+    &lt;a&gt;-Tags verwendet werden. Das `href`-Attribut definiert die URL, auf die der Link verweist:
+</p>
+<pre>
+  <code>
+    &lt;a href="https://www.webdesign-insights.de"&gt;WebDesign Insights&lt;/a&gt;
+  </code>
+</pre>
+<p>
+    Um Bilder einzubinden, können die
+    &lt;img&gt;-Tags verwendet werden. Das `src`-Attribut definiert die URL des Bildes, das `alt`-Attribut definiert
+    den Alternativtext, der angezeigt wird, wenn das Bild nicht geladen werden kann und der von Screenreadern vorgelesen
+    wird:
+</p>
+<pre>
+  <code>
+    &lt;img src="https://www.webdesign-insights.de/images/logo.png" alt="WebDesign Insights Logo"&gt;
+  </code>
+</pre>
+<p>
+    Um Tabellen zu erstellen, können die
+    &lt;table&gt;, &lt;thead&gt;, &lt;tbody&gt;, &lt;tfoot&gt;, &lt;tr&gt; und
+    &lt;td&gt;-Tags verwendet werden. Die
+    &lt;thead&gt;-Tags definieren den Kopf der Tabelle, die
+    &lt;tbody&gt;-Tags definieren den Körper der Tabelle und die
+    &lt;tfoot&gt;-Tags definieren den Fuß der Tabelle. Die
+    &lt;tr&gt;-Tags definieren die Zeilen der Tabelle und die
+    &lt;td&gt;-Tags definieren die Zellen der Tabelle:
+</p>
+<pre>
+  <code>
+    &lt;table&gt;
+        &lt;
+        &lt;tr&gt;
+            &lt;td&gt;Zelle 1&lt;/td&gt;
+            &lt;td&gt;Zelle 2&lt;/td&gt;
+            &lt;td&gt;Zelle 3&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Zelle 4&lt;/td&gt;
+            &lt;td&gt;Zelle 5&lt;/td&gt;
+            &lt;td&gt;Zelle 6&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/table&gt;
+    </code>
+</pre>
+<h3>CSS-Grundlagen</h3>
+<p>
+    CSS steht für Cascading Style Sheets und wird verwendet, um das Aussehen und Layout von Webseiten zu definieren. Mit
+    CSS können verschiedene Stileigenschaften wie Schriftarten, Farben, Hintergrundbilder und Abstände definiert werden.
+</p>
+<p>
+    CSS-Regeln werden in CSS-Dateien definiert. Diese CSS-Dateien werden mit dem
+    &lt;link&gt;-Tag in der
+    &lt;head&gt;-Section der HTML-Datei eingebunden:
+</p>
+<pre>
+  <code>
+    &lt;head&gt;
+        &lt;link rel="stylesheet" href="styles.css"&gt;
+    &lt;/head&gt;
+  </code>
+</pre>
+<p>
+    CSS-Regeln werden in geschweiften Klammern definiert. Die CSS-Regeln werden mit einem Selektor und einem Block von
+    geschweiften Klammern definiert. Der Selektor definiert, auf welche HTML-Elemente die CSS-Regeln angewendet werden.
+    Der Block von geschweiften Klammern definiert die CSS-Regeln:
+</p>
+<pre>
+  <code>
+    h1 {
+        color: red;
+    }
+  </code>
+</pre>
+<p>
+    Um mehrere CSS-Regeln für ein HTML-Element zu definieren, können die CSS-Regeln durch Semikolons getrennt werden:
+</p>
+<pre>
+  <code>
+    h1 {
+        color: red;
+        font-size: 20px;
+    }
+  </code>
+</pre>
+<p>
+    Um mehrere CSS-Regeln für mehrere HTML-Elemente zu definieren, können die CSS-Regeln durch Kommata getrennt werden:
+</p>
+<pre>
+  <code>
+    h1, h2, h3 {
+        color: red;
+    }
+  </code>
+</pre>
+<p>
+    Das folgende Beispiel zeigt, wie eine einfache HTML-Datei mit CSS-Regeln aussehen kann:
+</p>
+<pre>
+  <code>
+    &lt;!DOCTYPE html&gt;
+    &lt;html&gt;
+        &lt;head&gt;
+            &lt;title&gt;Titel&lt;/title&gt;
+            &lt;link rel="stylesheet" href="styles.css"&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+            &lt;h1&gt;Titel&lt;/h1&gt;
+            &lt;p&gt;Dies ist ein &lt;strong&gt;fetter&lt;/strong&gt; Text.&lt;/p&gt;
+            &lt;p&gt;Dies ist ein &lt;em&gt;kursiver&lt;/em&gt; Text.&lt;/p&gt;
+        &lt;/body&gt;
+    &lt;/html&gt;
+  </code>
+</pre>
+<p>
+    Das folgende Beispiel zeigt, wie die CSS-Regeln für das obige Beispiel aussehen können:
+</p>
+<pre>
+  <code>
+    h1 {
+        color: red;
+    }
+    p {
+        color: blue;
+    }
+    strong {
+        font-weight: bold;
+    }
+    em {
+        font-style: italic;
+    }
+  </code>
+</pre>
+<br>
+<p>
+    Das war es für den ersten Teil. Im nächsten Teil werden wir uns mit semantischen HTML-Elementen beschäftigen.
+</p>
+</body>
+</html>

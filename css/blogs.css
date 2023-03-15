@@ -1,0 +1,16 @@
+p {
+    color: #ced0d4;
+    font-family: Arial, sans-serif;
+}
+
+h3 {
+    color: #ced0d4;
+    font-family: Arial, sans-serif;
+}
+
+pre {
+    background-color: #2b2d31;
+    color: #ced0d4;
+    border: 1px solid #1e1f22;
+    border-radius: 0.5rem;
+}

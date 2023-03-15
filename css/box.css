@@ -1,15 +1,17 @@
 div.box {
-    background-color: #151718;
+    background-color: #313338;
     border: 0 solid;
     border-radius: 0.5rem;
     margin-top: 50px;
     width: 100%;
     height: fit-content;
-    min-height: 50px;
+    min-height: 750px;
     font-family: Arial, sans-serif;
     font-size: 1.5rem;
     color: #dddddd;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 div.box:first-child {
@@ -39,6 +41,11 @@ div.box:first-child {
     text-align: left;
     vertical-align: middle;
     line-height: 1rem;
+}
+
+div.full-width div.box div.box-header h6.box-title {
+    top: 70px;
+    left: 90px;
 }
 
 div.programm-icon {
