@@ -26,3 +26,21 @@ a {
 a:active {
     color: #594fbd;
 }
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 0.5rem;
+    background-color: #2b2d31;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 0.5rem;
+    background-color: #1a1b1e;
+}
+
+::-webkit-scrollbar-thumb:active {
+    background-color: #505050;
+}
