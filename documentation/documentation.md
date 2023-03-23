@@ -1,0 +1,1 @@
+<!--- To view this file in the right layout, please open https://github.com/TheDesignCraftYT/school-blog/blob/main/tree/documentation/documentation.md -->
